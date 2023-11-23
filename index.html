@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Currency converter</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Lobster&family=Pacifico&display=swap"
+rel="stylesheet">
+</head>
+<body>
+    <h1 class="heading text-center display-2">
+        Currency Converter
+    </h1>
+   <div class="container">
+      <div class="main">
+        <div class="input">
+            <select name="" id="select_from">
+                <option value="">Select From</option>
+            </select>
+            <p id="from_country_name"></p>
+            <input type="number" placeholder="Enter amount" id="input_currency">
+      </div> <br>
+      <div class="output">
+            <select name="" id="convert_to">
+                <option value="">Convert To</option>
+            </select>
+            <p id="to_country_name"></p>
+            <input type="text" disabled placeholder="Converted amount" id="output_currency">
+      </div>  <br>
+
+      <div class="btn"><button id="btn">Convert</button></div>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
